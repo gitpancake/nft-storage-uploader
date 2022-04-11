@@ -29,8 +29,6 @@ app.post(
     });
 
     if (uploadedNFT) {
-      console.log(uploadedNFT);
-
       return res.status(201).send({ message: "Created" });
     } else {
       return res.status(400).send({ message: "Not Created", uploadedNFT });
