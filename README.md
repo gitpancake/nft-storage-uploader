@@ -15,4 +15,3 @@ A barebones express API for uploading NFT metadata to [nft.storage](https://nft.
 - Run `yarn start:dev` OR `npm run start:dev`
 
 - Interface with the API via `/upload`
-# nft-storage-uploader
